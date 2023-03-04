@@ -1,0 +1,32 @@
+body {
+	background-color: #5C1F00;
+	color: #FFCC00;
+}
+
+p {
+	font-family: sans-serif;
+    font-size: 22px;
+}
+
+h1 {
+	font-size: 54px; 
+}
+
+h2 {
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 36px; 
+}
+
+em {
+	font-weight: bold;
+}
+
+/*
+Tamaño párrafo: 22px
+o Tamaño H1: 54px
+o Tamaño H2: 48px
+o Tamaño H3: 36px
+*/

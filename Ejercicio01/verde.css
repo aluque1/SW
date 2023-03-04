@@ -1,0 +1,12 @@
+body {
+	background-color: #559955;
+	color: #ffffff;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+em {
+	font-weight: bold; /* Ponemos en �nfasis en negrita */
+}

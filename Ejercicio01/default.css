@@ -1,0 +1,16 @@
+body {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+h3 {
+	font-size: 54px; /* Hacemos la fuente del t�tulo peque�o super-grande */
+}
+
+em {
+	font-weight: bold; /* Ponemos en �nfasis en negrita */
+}
