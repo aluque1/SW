@@ -20,8 +20,8 @@ session_destroy();
 <body>
 <div id="contenedor">
 <?php
-require('cabecera.php');
-require('sidebarIzq.php');
+require('includes/vistas/cabecera.php');
+require('includes/vistas/sidebarIzq.php');
 ?>
 <main>
 	<article>
@@ -29,8 +29,8 @@ require('sidebarIzq.php');
 	</article>
 </main>
 <?php
-require('sidebarDer.php');
-require('pie.php');
+require('includes/vistas/sidebarDer.php');
+require('includes/vistas/pie.php');
 ?>
 </div>
 </body>

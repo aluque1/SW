@@ -22,7 +22,7 @@ if ( ! $password || empty($password=trim($password)) ) {
 }
 
 if (count($erroresFormulario) === 0) {
-	$conn=conexionBD();
+	$conn=$app->getConexionBd();
 	
 	$query=sprintf("SELECT * FROM Usuarios U WHERE U.nombreUsuario = '%s'", $conn->real_escape_string($nombreUsuario));
 	$rs = $conn->query($query);
